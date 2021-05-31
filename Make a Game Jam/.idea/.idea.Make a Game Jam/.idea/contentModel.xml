@@ -5,7 +5,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Perspective Camera Method" t="Include">
+          <e p="GameManager.cs" t="Include" />
+          <e p="JumpSceneManager.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="Person.cs" t="Include" />
+          <e p="PersonController.cs" t="Include" />
+          <e p="PersonScript.cs" t="Include" />
           <e p="SliderBarController.cs" t="Include" />
           <e p="SliderController.cs" t="Include" />
           <e p="SliderUIController.cs" t="Include" />

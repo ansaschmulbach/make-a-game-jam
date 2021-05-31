@@ -7,10 +7,14 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
+    #region Inspector Variables
+
     [SerializeField] private float refSpeed;
     [SerializeField] private int dest;
-    [SerializeField] private List<GameObject> phones;
+    // [SerializeField] private List<GameObject> phones;
     [SerializeField] private float yJumpHeight;
+
+    #endregion
 
     #region Private Jump Variables
 
@@ -34,22 +38,31 @@ public class Movement : MonoBehaviour
     {
         uiScript = FindObjectOfType<SliderUIController>();
         uiScript.gameObject.SetActive(false);
+        dest = GameManager.instance.NextIndex;
+        Jump();
     }
 
     void Update()
     {
         if (Input.GetKeyDown("w"))
         {
-            startPosition = this.transform.position;
-            targetPosition = phones[dest].transform.position;
-            isJumping = true;
-            calcJumpVars();
-            uiScript.StartFlight();
-
+            Jump();
         }
         JumpHandler();
     }
 
+    void Jump()
+    {
+        startPosition = this.transform.position;
+        //targetPosition = phones[dest].transform.position;
+        //targetPosition = GameManager.instance.currentPeople[dest].position;
+        Vector3 targetPosRot = GameManager.instance.currentPeople[dest].position;
+        targetPosition = new Vector3(targetPosRot.x, targetPosRot.z, targetPosRot.y);
+        isJumping = true;
+        calcJumpVars();
+        uiScript.StartFlight();
+    }
+    
     void calcJumpVars()
     {
         float xdiff = (targetPosition.x - startPosition.x);
