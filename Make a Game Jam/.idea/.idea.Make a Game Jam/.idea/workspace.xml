@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f95fe190-dcf8-4e6f-a22c-3168ad55ff2c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/contentModel.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" afterDir="false" />
@@ -34,6 +35,64 @@
       <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderUIController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jumping Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jumping Scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Top Down Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Top Down Screen.unity" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontView/PersonFrontView-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonFrontViewBlack/PersonFrontViewBlack-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/Person-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PersonTopView/PersonTopBlack-6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jumping Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jumping Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Top Down Scene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Top Down Scene.unity.meta" beforeDir="false" />
+>>>>>>> d5a668af08baa38308b5e5e0a96c38ad80f6ce06
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
@@ -47,6 +106,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/Furniture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/Sound.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +115,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/DoneButtonUI.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> d5a668af08baa38308b5e5e0a96c38ad80f6ce06
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,6 +137,14 @@
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderBarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderUIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/JumpSceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/PersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/PersonTopDownController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Person.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Sound.cs" />
@@ -123,9 +196,13 @@
       <updated>1622315821687</updated>
       <workItem from="1622315834832" duration="3373000" />
       <workItem from="1622330625075" duration="5669000" />
+<<<<<<< HEAD
       <workItem from="1622339146238" duration="17649000" />
       <workItem from="1622427658603" duration="3840000" />
       <workItem from="1622447348138" duration="7223000" />
+=======
+      <workItem from="1622339146238" duration="13851000" />
+>>>>>>> d5a668af08baa38308b5e5e0a96c38ad80f6ce06
     </task>
     <servers />
   </component>
