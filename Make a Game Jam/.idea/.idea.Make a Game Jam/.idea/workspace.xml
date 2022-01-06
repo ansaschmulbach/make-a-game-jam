@@ -20,11 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f95fe190-dcf8-4e6f-a22c-3168ad55ff2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Make a Game Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/JumpSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/JumpSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderBarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderBarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderUIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderUIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Jumping Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Jumping Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Top Down Screen.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Top Down Screen.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +46,39 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/Furniture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/Sound.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/BarObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/SoundManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Perspective Camera Method/DoneButtonUI.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderController.cs" />
         <option value="$PROJECT_DIR$/Assets/SliderBarController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/PersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/PersonTopDownController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/TopDownBugController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/BarObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Person.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Furniture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderBarController.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderUIController.cs" />
         <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/PersonScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Sound.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/SoundManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/JumpSceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Perspective Camera Method/DoneButtonUI.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +123,9 @@
       <updated>1622315821687</updated>
       <workItem from="1622315834832" duration="3373000" />
       <workItem from="1622330625075" duration="5669000" />
-      <workItem from="1622339146238" duration="8435000" />
+      <workItem from="1622339146238" duration="17649000" />
+      <workItem from="1622427658603" duration="3840000" />
+      <workItem from="1622447348138" duration="7223000" />
     </task>
     <servers />
   </component>
@@ -111,28 +150,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="571" y="141" width="670" height="58" key="search.everywhere.popup" timestamp="1622317845492">
+    <state x="507" y="130" key="RiderGenerateDialog" timestamp="1622430699618">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="571" y="141" width="670" height="58" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1622317845492" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Perspective Camera Method/SliderController.cs</url>
-          <line>31</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Perspective Camera Method/SliderController.cs" initialLine="14">
-            <startOffsets>
-              <option value="809" />
-            </startOffsets>
-            <endOffsets>
-              <option value="837" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="507" y="130" key="RiderGenerateDialog/0.23.1440.797@0.23.1440.797" timestamp="1622430699618" />
+    <state x="571" y="141" width="672" height="160" key="search.everywhere.popup" timestamp="1622482841734">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="571" y="141" width="672" height="160" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1622482841734" />
   </component>
 </project>

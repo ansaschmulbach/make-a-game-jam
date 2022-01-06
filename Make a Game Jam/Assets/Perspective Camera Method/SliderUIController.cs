@@ -22,5 +22,10 @@ public class SliderUIController : MonoBehaviour
         insideBar.StartFlight();
         buggy.StartFlight();
     }
+
+    public void EndFlight()
+    {
+        insideBar.EndFlight();
+    }
     
 }

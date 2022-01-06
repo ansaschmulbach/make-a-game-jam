@@ -10,21 +10,41 @@ public class SliderController : MonoBehaviour
     [SerializeField] private float clickVel;
     [SerializeField] private float holdVel;
     [SerializeField] private float maxDownVel;
-    [SerializeField] private float maxYPos;
+    //[SerializeField] private float maxYPos;
     [SerializeField] private float minYPos;
     private float yVel;
+    private float maxYPos;
+    private float maxUpVel;
+
+    #region Cached Variables
+
     private RectTransform rectTransform;
+    private SliderBarController sliderBarController;
+    private Health playerHealth;
+
+    #endregion
 
     void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
+        sliderBarController = FindObjectOfType<SliderBarController>();
+        playerHealth = FindObjectOfType<Health>();
+        maxYPos = -minYPos;
+        maxUpVel = -maxDownVel;
     }
     
     
     private void FixedUpdate()
     {
+
+        if (!sliderBarController.InYBounds(rectTransform.position.y))
+        {
+            playerHealth.LoseHealth(Time.deltaTime);
+        }
+        
         yVel -= gravity * Time.deltaTime;
         if (yVel <= maxDownVel) yVel = maxDownVel;
+        if (yVel >= maxUpVel) yVel = maxUpVel;
         if (Input.GetMouseButtonDown(0))
         {
             yVel += clickVel;

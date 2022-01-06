@@ -3,14 +3,19 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
 
+    #region Inspector Variables
+
     [SerializeField] private float refSpeed;
     [SerializeField] private int dest;
-    [SerializeField] private List<GameObject> phones;
+    // [SerializeField] private List<GameObject> phones;
     [SerializeField] private float yJumpHeight;
+
+    #endregion
 
     #region Private Jump Variables
 
@@ -27,29 +32,53 @@ public class Movement : MonoBehaviour
     #region Cached Variables
 
     private SliderUIController uiScript;
+    private JumpSceneManager jumpSceneManager;
 
     #endregion
-    
+
+    void Awake()
+    {
+        SetStartPosition();
+    }
+
     void Start()
     {
         uiScript = FindObjectOfType<SliderUIController>();
+        jumpSceneManager = FindObjectOfType<JumpSceneManager>();
         uiScript.gameObject.SetActive(false);
+        dest = GameManager.instance.NextIndex;
+        Jump();
+    }
+
+    void SetStartPosition()
+    {
+        int index = GameManager.instance.CurrentPersonIndex;
+        Vector3 targetPosRot = GameManager.instance.currentPeople[index].position;
+        Vector3 startPos = new Vector3(targetPosRot.x, targetPosRot.z, targetPosRot.y);
+        this.transform.position = startPos;
     }
 
     void Update()
     {
         if (Input.GetKeyDown("w"))
         {
-            startPosition = this.transform.position;
-            targetPosition = phones[dest].transform.position;
-            isJumping = true;
-            calcJumpVars();
-            uiScript.StartFlight();
-
+            Jump();
         }
         JumpHandler();
     }
 
+    void Jump()
+    {
+        startPosition = this.transform.position;
+        //targetPosition = phones[dest].transform.position;
+        //targetPosition = GameManager.instance.currentPeople[dest].position;
+        Vector3 targetPosRot = GameManager.instance.currentPeople[dest].position;
+        targetPosition = new Vector3(targetPosRot.x, targetPosRot.z, targetPosRot.y);
+        isJumping = true;
+        calcJumpVars();
+        uiScript.StartFlight();
+    }
+    
     void calcJumpVars()
     {
         float xdiff = (targetPosition.x - startPosition.x);
@@ -88,9 +117,7 @@ public class Movement : MonoBehaviour
         Vector3 diff = targetPosition - this.transform.position;
         if (diff.x * diff.x + diff.z * diff.z <= 0.1f)
         {
-            isJumping = false;
-            this.transform.position = targetPosition;
-            uiScript.gameObject.SetActive(false);
+            FinishJump();
             return;
         }
         this.transform.position += Vector3.right * (xSpeed * Time.deltaTime);
@@ -100,6 +127,15 @@ public class Movement : MonoBehaviour
         yVel += gravity * Time.deltaTime;
 
     }
-    
+
+    void FinishJump()
+    {
+        isJumping = false;
+        this.transform.position = targetPosition;
+        uiScript.EndFlight();
+        uiScript.gameObject.SetActive(false);
+        GameManager.instance.CurrentPersonIndex = GameManager.instance.NextIndex;
+        jumpSceneManager.EndJump();
+    }
     
 }
